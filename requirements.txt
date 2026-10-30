@@ -1,0 +1,4 @@
+httpx
+python-dotenv
+pillow
+img2pdf

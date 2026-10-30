@@ -1,0 +1,95 @@
+"""Builds story/jobs_board2.json (Board 2: Roots, 1984-1990)."""
+import json
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+b1 = json.loads((HERE / "jobs_board1.json").read_text(encoding="utf-8"))
+V = {k: b1["vars"][k] for k in ("STYLE", "PANEL")}
+V["WEI"] = "Wei is a lean Chinese (Hakka) man with a single small mole below his RIGHT eye (viewer's left), shown on his character sheet."
+V["SMRITI"] = "Smriti is an Indo-Mauritian woman with warm brown skin, large dark eyes and thick eyebrows, shown on her character sheet."
+V["UNCLE"] = "Uncle Lam is a wiry Chinese shopkeeper with short grey hair, thick black-rimmed glasses and a pencil behind his ear, shown on his character sheet."
+V["FATHER"] = "Mr Ramdass is Smriti's father, a round-faced Indo-Mauritian man with a moustache, shown on his character sheet."
+V["NORELIGION"] = "Purely cultural and social: no religious symbols, rites, altars, statues or temples."
+S = "assets/sheets/"
+
+jobs = [
+    {"id": "shop_1984", "kind": "edit", "refs": ["assets/plates/shop_1972.png"],
+     "out": "assets/plates/shop_1984.png", "size": "1792x768",
+     "prompt": "Show this exact same shop from the exact same camera position, angle, lens and framing, 12 years later, in 1984. "
+               "KEEP UNCHANGED: the building's footprint, shape, size and position; the row of four doors; the position of the signboard; "
+               "the position of the frangipani tree; the cane fields; the distant mountain range and the tall boulder-topped peak; "
+               "the sky composition; the art style and muted colour grading. CHANGES: (1) the rough basalt walls are now plastered smooth "
+               "and painted a pale cream-yellow; a few grey basalt blocks still show at one lower corner where the plaster has chipped; "
+               "(2) the four doors are freshly repainted deep red; (3) the rusty roof and awning are replaced by newer grey corrugated sheets; "
+               "(4) the old crooked signboard is replaced by a larger, professionally painted dark green signboard with gold lettering, "
+               "still reading 'LAM STORE' and 林記; (5) two red paper lanterns hang under the awning; (6) the frangipani is now a young tree "
+               "about twice the height of the door, with a small rounded canopy in bloom; (7) the dirt road is now a narrow, slightly worn "
+               "tarmac road; (8) a wooden electricity pole with wires stands at the roadside to the right; (9) a small concrete house with "
+               "a tin roof appears in the distance among the fields. Warm late-afternoon light. No people. No text other than the sign. "
+               "No watermark."},
+    {"id": "b2p1", "kind": "edit", "refs": ["assets/plates/shop_1984.png", S + "uncle_67.png"],
+     "out": "assets/panels/b2/p1.png", "size": "1792x768",
+     "prompt": "The first image is a background plate of the shop in 1984. The second image is the character sheet of Uncle Lam. {UNCLE} "
+               "KEEP the building, sign, tree, road, mountains and camera angle exactly as in the plate. Change the time to early evening "
+               "dusk: a deep blue sky with the last warm glow on the horizon. Strings of small warm light bulbs run from the shop's awning "
+               "across the road to the electricity pole and glow softly. Guests of every Mauritian community (Indo-Mauritian, Creole, "
+               "Sino-Mauritian; old and young, in their best 1980s clothes) walk along the road toward the shop in small groups, carrying "
+               "covered dishes and baskets; two children run ahead. Uncle Lam stands at the open doors in a clean white shirt, welcoming "
+               "them with a small bow. Festive but gentle mood. Leave calm sky at the top-left for a caption. {NORELIGION} {PANEL} {STYLE}"},
+    {"id": "b2p2", "kind": "edit", "refs": [S + "wei_26.png", S + "smriti_24.png", S + "uncle_67.png", S + "father_58.png"],
+     "out": "assets/panels/b2/p2.png", "size": "1536x1024",
+     "prompt": "The images are character sheets of Wei aged 26 ({WEI}), Smriti aged 24 ({SMRITI}), Uncle Lam ({UNCLE}) and Mr Ramdass "
+               "({FATHER}). Scene: their wedding party in the backyard behind the shop, 1984, at night. Long tables with white cloths, "
+               "plates of food, strings of warm bulbs and paper lanterns overhead, banana trees and a tin-roofed shed in the background. "
+               "In the background centre, Wei (crisp white shirt, flower pinned to it) and Smriti (red silk saree with gold border, "
+               "jasmine flowers in her hair) sit side by side at the head table, laughing together. In the foreground, Uncle Lam on the "
+               "left and Mr Ramdass on the right stand facing each other and shake hands firmly, both half-smiling, like two proud "
+               "fathers sizing each other up. Guests of all Mauritian communities chat at the tables. Leave calm space above the two "
+               "men's heads for speech bubbles. {NORELIGION} {PANEL} {STYLE}"},
+    {"id": "b2p3", "kind": "edit", "refs": [S + "wei_32.png", S + "smriti_30.png", S + "kids_1990.png"],
+     "out": "assets/panels/b2/p3.png", "size": "1536x1024",
+     "prompt": "The images are character sheets of Wei ({WEI}), Smriti ({SMRITI}) and their son (the little boy on the third sheet, "
+               "here about 2 years old). Scene: Chinatown in Port Louis, Mauritius, during Spring Festival, 1988, daytime. A narrow "
+               "street of old two-storey colonial shophouses with wooden balconies, rows of red paper lanterns strung overhead, red and "
+               "gold decorations, a dense happy crowd of every Mauritian community. In the middle of the street a vivid red-and-gold lion "
+               "dance: the lion rears up with its big eyes and fringed mane while drummers play. In the foreground, Wei carries his "
+               "little son on his shoulders; the boy shrieks with delight and points at the lion. Beside them Smriti laughs with her head "
+               "thrown back, clapping. Confetti and a little firecracker smoke drift in the air. Leave calm space in the top-left for a "
+               "caption. {NORELIGION} {PANEL} {STYLE}"},
+    {"id": "b2p4", "kind": "edit", "refs": [S + "wei_32.png", S + "smriti_30.png"],
+     "out": "assets/panels/b2/p4.png", "size": "1536x1024",
+     "prompt": "The images are character sheets of Wei ({WEI}) and Smriti ({SMRITI}). Scene: a small, cosy home kitchen in 1980s "
+               "Mauritius, afternoon light through a window with a curtain, steel pots on a gas ring, jars of spices and a bamboo steamer "
+               "on the shelf. Wei and Smriti stand side by side at a wooden table covered in flour. Smriti, sleeves rolled up, holds a "
+               "rolling pin and a thin round flatbread (dholl puri), pointing at Wei's dough with a playful scolding look. Wei, flour on "
+               "his cheek and apron, holds up a small hand-pleated dumpling and grins back at her teasingly. Between them a plate of neat "
+               "dumplings and a plate of flatbreads; a bowl of yellow split-pea filling. Warm, playful, intimate mood. Leave calm space "
+               "above their heads for speech bubbles. {PANEL} {STYLE}"},
+    {"id": "b2p5", "kind": "edit", "refs": ["assets/plates/interior_1972.png", S + "wei_32.png", S + "kids_1990.png"],
+     "out": "assets/panels/b2/p5.png", "size": "1536x1024",
+     "prompt": "The first image is the inside of the shop in 1972. Show the SAME shop interior in 1990: the same layout, counter and "
+               "shelves, but the walls are now plastered and painted cream, the shelves are fuller with colourful 1990s packaging (no "
+               "readable brand names), a small electric fan and a calendar on the wall, a fluorescent tube light. The other images are "
+               "character sheets of Wei ({WEI}) and his two children (a 6-year-old boy in a striped T-shirt, a 3-year-old girl with two "
+               "bunches). Scene: lively afternoon. Wei's two children and three neighbourhood kids of different Mauritian backgrounds "
+               "race through the aisle in a game of chase, laughing; a sack of rice wobbles. Behind the counter, Wei laughs out loud with "
+               "his head tipped back, one hand on the old brass scale. Dynamic, joyful, a little chaotic. Leave calm space in the "
+               "top-left for a caption. {PANEL} {STYLE}"},
+    {"id": "b2p6", "kind": "edit",
+     "refs": ["assets/plates/shop_1984.png", S + "wei_32.png", S + "smriti_30.png", S + "kids_1990.png", S + "uncle_67.png", S + "father_58.png"],
+     "out": "assets/panels/b2/p6.png", "size": "1792x768",
+     "prompt": "The first image is the shop. The other images are character sheets: Wei ({WEI}), Smriti ({SMRITI}), their two children "
+               "(boy 6, girl 3), Uncle Lam ({UNCLE}) and Mr Ramdass ({FATHER}). Scene: Spring Festival morning, 1990, a group photograph "
+               "in front of the shop. The camera is a little closer than the plate, framing the open red doors, the sign and the "
+               "frangipani tree; plain red paper strips with gold patterns (no writing) hang on both sides of the doors, two red lanterns "
+               "above. Everyone faces the camera in a posed photo: in the centre, Uncle Lam, now about 76, sits on a wooden chair holding "
+               "a walking cane, smiling; behind him stand Wei and Smriti, her hand on his shoulder; the two children sit cross-legged in "
+               "front; to one side Mr Ramdass, grey-haired, with his wife, an Indo-Mauritian woman in a pale saree; on the other side, "
+               "about five neighbours of different Mauritian communities squeeze into the frame, one making bunny ears behind another's "
+               "head. Warm morning light, joyful and slightly chaotic. Leave calm space at the top-left for a caption. {NORELIGION} "
+               "{PANEL} {STYLE}"},
+]
+
+(HERE / "jobs_board2.json").write_text(
+    json.dumps({"vars": V, "jobs": jobs}, ensure_ascii=False, indent=1), encoding="utf-8")
+print(f"{len(jobs)} jobs written")

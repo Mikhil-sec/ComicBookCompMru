@@ -1,0 +1,166 @@
+{
+ "vars": {
+  "STYLE": "Art style: hand-painted anime feature film look. Semi-realistic and painterly, watercolour-and-gouache rendering with soft visible brush texture, delicate thin ink lines, realistic proportions, natural facial features with gentle anime stylisation, soft natural lighting with gentle form shading, muted desaturated natural colour grading, subtle film grain. Refined; not chibi, not cartoonish, not photographic, no oversaturation. No text labels, no captions, no watermark.",
+  "LAYOUT": "Layout on a plain light grey background: four full-body views in a row on top (front, three-quarter, side profile, back) and four head close-ups below showing the listed expressions. Consistent proportions across all views.",
+  "AGE_WEI": "This is a character reference sheet of Wei, a Chinese (Hakka) man. Create the SAME sheet layout in the same art style, showing the SAME PERSON at a different age. He must be instantly recognisable as the same person. KEEP UNCHANGED: his Chinese (East Asian) ethnicity and facial features; the narrow face with slightly pointed chin; the exact eye shape and dark brown eyes; nose and mouth shape; the single small dark mole just below his RIGHT eye (on the viewer's left in front views), never on the other cheek; the art style, line quality and muted colours.",
+  "AGE_SMRITI": "This is a character reference sheet of Smriti, an Indo-Mauritian woman. Create the SAME sheet layout in the same art style, showing the SAME PERSON at a different age. She must be instantly recognisable as the same person. KEEP UNCHANGED: her Indo-Mauritian ethnicity and facial features; warm brown skin; large dark expressive eyes; thick dark eyebrows; a small neat gap between her two upper front teeth when she smiles (a diastema: ALL teeth present and healthy, nothing missing); her face shape; the art style, line quality and muted colours. No religious symbols or marks.",
+  "STYLE_REF": "STYLE REFERENCE: the attached image is a character sheet that defines the target art style. Create a NEW and DIFFERENT character (do not copy the boy) drawn in EXACTLY the same art style: the same rendering, line quality, colour palette, level of realism, facial stylisation and proportions. Same sheet layout: four full-body views in a row on top (front, three-quarter, side profile, back) and four head close-ups below."
+ },
+ "jobs": [
+  {
+   "id": "wei_21",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_14.png"
+   ],
+   "out": "assets/sheets/wei_21.png",
+   "prompt": "{AGE_WEI} NEW AGE: 21, in 1979. He must look clearly like a young ADULT MAN, not a boy. CHANGES: (1) adult height and build: much taller, broader shoulders, adult neck with a visible Adam's apple, lean wiry muscular arms; (2) adult face: longer face, defined jawline and cheekbones, all childish roundness gone, but the SAME eyes, nose and mouth; (3) short black hair, slightly messy; (4) clothing: white cotton vest under an open short-sleeved checked cotton shirt, khaki trousers, rubber sandals; (5) in the full-body views he holds a small ring of shop keys; (6) expressions: proud smile, surprised, focused, emotional and holding back tears. IMPORTANT: exactly ONE mole, below his RIGHT eye (viewer's left); his left cheek has no mole. {STYLE}"
+  },
+  {
+   "id": "wei_26",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_21.png"
+   ],
+   "out": "assets/sheets/wei_26.png",
+   "prompt": "{AGE_WEI} NEW AGE: 26, in 1984, on his wedding day. CHANGES: (1) same lean build, face very slightly fuller, no wrinkles; (2) black hair neatly cut and side-parted; (3) clothing: a crisp white long-sleeved shirt, dark trousers with a belt, polished black leather shoes, a small flower pinned to his shirt; (4) expressions: joyful laugh, shy smile, tender, nervous. {STYLE}"
+  },
+  {
+   "id": "wei_32",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_26.png"
+   ],
+   "out": "assets/sheets/wei_32.png",
+   "prompt": "{AGE_WEI} NEW AGE: 32, in 1990, a young father. CHANGES: (1) same lean build; (2) faint smile lines at the eyes only; (3) short black hair; (4) clothing: light blue short-sleeved button-up shirt, brown trousers, a simple wristwatch, black sandals; (5) expressions: laughing, warm, playful, tired. {STYLE}"
+  },
+  {
+   "id": "wei_50",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_32.png"
+   ],
+   "out": "assets/sheets/wei_50.png",
+   "prompt": "{AGE_WEI} NEW AGE: 50, in 2008. CHANGES: (1) grey streaks at the temples, hair slightly thinner; (2) light wrinkles at the eyes and forehead, slightly softer middle; (3) reading glasses hanging on a cord around his neck; (4) clothing: a grey polo shirt, dark trousers, a plain dark cardigan; (5) expressions: worried, grieving, lost in thought, quiet relief. {STYLE}"
+  },
+  {
+   "id": "wei_69",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_50.png"
+   ],
+   "out": "assets/sheets/wei_69.png",
+   "prompt": "{AGE_WEI} NEW AGE: 69, in 2027. CHANGES: (1) short white-grey hair; (2) deeper wrinkles and laugh lines, age spots, slightly stooped but healthy and lively; (3) clothing: a festive red mandarin-collar jacket with knotted buttons over a white shirt, dark trousers, black shoes; (4) expressions: proud smile, tearful joy, laughing, gentle and emotional. AGE CHECK: Muse tends to over-age. This person must look a healthy, active 69-year-old who still works and laughs every day: moderate wrinkles and laugh lines only, upright posture, bright alert eyes, NOT frail, NOT in their 80s. {STYLE}"
+  },
+  {
+   "id": "smriti_12",
+   "kind": "edit",
+   "out": "assets/sheets/smriti_12.png",
+   "prompt": "{STYLE_REF} Character reference sheet of an original character: Smriti, a 12-year-old Indo-Mauritian girl in rural Mauritius in 1972. Warm brown skin, large dark expressive eyes, thick dark eyebrows, a small gap between her two front teeth that shows when she grins, slim, long-limbed and energetic, tomboyish, clearly 12 years old (not a small child). Long thick black hair in two plaits tied with faded ribbons. Clothing: a faded yellow knee-length cotton frock with a small print, rubber sandals, a scraped knee. No religious symbols or marks. Expressions: cheeky gap-toothed grin, laughing, shouting to a friend, curious. {STYLE}",
+   "refs": [
+    "assets/sheets/wei_14.png"
+   ]
+  },
+  {
+   "id": "smriti_24",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/smriti_12.png"
+   ],
+   "out": "assets/sheets/smriti_24.png",
+   "prompt": "{AGE_SMRITI} NEW AGE: 24, in 1984, on her wedding day. CHANGES: (1) a young woman, graceful but still lively; (2) long black hair in an elegant low bun with a few white jasmine flowers; (3) clothing: an elegant red silk saree with a gold border, small gold earrings and thin gold bangles; (4) expressions: radiant laugh showing the tooth gap, teasing smile, tender, emotional. {STYLE}"
+  },
+  {
+   "id": "smriti_30",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/smriti_24.png"
+   ],
+   "out": "assets/sheets/smriti_30.png",
+   "prompt": "{AGE_SMRITI} NEW AGE: 30, in 1990, a young mother. CHANGES: (1) long black hair in a single practical braid; (2) clothing: a simple floral cotton blouse and a long cotton skirt, thin bangles, sandals; (3) expressions: laughing, playfully scolding, tender, focused while cooking. {STYLE}"
+  },
+  {
+   "id": "smriti_48",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/smriti_30.png"
+   ],
+   "out": "assets/sheets/smriti_48.png",
+   "prompt": "{AGE_SMRITI} NEW AGE: 48, in 2008. CHANGES: (1) a few grey streaks in her black hair, worn in a low bun; (2) light lines at the eyes; (3) clothing: a long cotton tunic over loose trousers with a light shawl, reading glasses pushed up on her head; (4) expressions: worried, determined, warm, relieved and welcoming. AGE CHECK: Muse tends to over-age. She must look a youthful, energetic 48: only faint lines at the eyes, smooth skin otherwise, NOT in her late 50s. {STYLE}"
+  },
+  {
+   "id": "smriti_67",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/smriti_48.png"
+   ],
+   "out": "assets/sheets/smriti_67.png",
+   "prompt": "{AGE_SMRITI} NEW AGE: 67, in 2027. CHANGES: (1) silver-white hair in a neat bun; (2) laugh lines and gentle wrinkles, still bright-eyed; (3) clothing: a festive soft-green silk saree with a gold border, gold earrings; (4) expressions: joyful laugh showing the tooth gap, proud, tearful, waving. AGE CHECK: Muse tends to over-age. This person must look a healthy, active 67-year-old who still works and laughs every day: moderate wrinkles and laugh lines only, upright posture, bright alert eyes, NOT frail, NOT in their 80s. {STYLE}"
+  },
+  {
+   "id": "uncle_50",
+   "kind": "edit",
+   "out": "assets/sheets/uncle_50.png",
+   "prompt": "{STYLE_REF} Character reference sheet of an original character: Uncle Lam, a 50-year-old Chinese (Hakka) shopkeeper in rural Mauritius in 1972. Clearly East Asian (Chinese) features. Lean and wiry, a moderately sun-weathered face that looks his age of 50 (NOT elderly: only a few lines), two frown lines between the brows, a stern mouth that hides kindness, short cropped black hair greying at the sides, thick black-rimmed glasses, a pencil tucked behind his right ear. Clothing: white cotton singlet under an open grey short-sleeved shirt, dark trousers, cloth slippers. Expressions: stern appraisal, rare small smile, gruff, quietly proud. {STYLE}",
+   "refs": [
+    "assets/sheets/wei_14.png"
+   ]
+  },
+  {
+   "id": "uncle_67",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/uncle_50.png"
+   ],
+   "out": "assets/sheets/uncle_67.png",
+   "prompt": "This is a character reference sheet of Uncle Lam, a Chinese (Hakka) shopkeeper. Create the SAME sheet layout in the same art style, showing the SAME PERSON aged 65, in 1979. KEEP UNCHANGED: his Chinese facial features, face shape, thick black-rimmed glasses, the pencil behind his right ear, the art style. CHANGES: (1) hair mostly grey but still full, cropped short; (2) a few more wrinkles than at 50, still upright and wiry; (3) clothing: a grey cardigan over a white shirt, dark trousers, cloth slippers; (4) expressions: gruff, warm smile, proud, laughing. AGE CHECK: Muse tends to over-age. He must look a healthy, active 65 who still works the shop every day: NOT bald, NOT frail, NOT in his 80s. {STYLE}"
+  },
+  {
+   "id": "father_40",
+   "kind": "edit",
+   "out": "assets/sheets/father_40.png",
+   "prompt": "{STYLE_REF} Character reference sheet of an original character: Mr Ramdass, Smriti's father, a 40-year-old Indo-Mauritian man in rural Mauritius in 1972. Warm brown skin, a round friendly face, a thick black moustache, kind eyes, slightly stocky. Clothing: a white short-sleeved cotton shirt, grey trousers, sandals, a straw hat in hand in some views. No religious symbols. In two of the full-body views he holds an old box camera. Expressions: hearty laugh, warm smile, proud, teasing. {STYLE}",
+   "refs": [
+    "assets/sheets/wei_14.png"
+   ]
+  },
+  {
+   "id": "father_58",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/father_40.png"
+   ],
+   "out": "assets/sheets/father_58.png",
+   "prompt": "This is a character reference sheet of Mr Ramdass, an Indo-Mauritian man. Create the SAME sheet layout in the same art style, showing the SAME PERSON aged 58, in 1990. KEEP UNCHANGED: his face shape, eyes, the moustache shape, his build, the art style. CHANGES: (1) moustache and hair turned grey; (2) gentle wrinkles; (3) clothing: a smart light-coloured shirt, trousers, sandals; (4) expressions: hearty laugh, proud, emotional, warm. {STYLE}"
+  },
+  {
+   "id": "mother_85",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_50.png"
+   ],
+   "out": "assets/sheets/mother_85.png",
+   "prompt": "This is a character reference sheet of Wei, a Chinese man aged 50. Create a NEW character reference sheet, same layout and same art style, of his MOTHER: an 85-year-old Hakka Chinese woman in Meizhou, Guangdong, in 2008. She has a clear family resemblance to Wei: the same eye shape and the same narrow face. Thin and frail but dignified, white hair in a small low bun, deep wrinkles, gentle eyes. Clothing: a dark blue traditional Hakka-style cotton jacket with cloth buttons, dark trousers. In the full-body views she is seated on a simple wooden chair. Expressions: tender smile, tearful, wise and calm, tired. No religious symbols. {STYLE}"
+  },
+  {
+   "id": "mira_18",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_32.png",
+    "assets/sheets/smriti_30.png"
+   ],
+   "out": "assets/sheets/mira_18.png",
+   "prompt": "The two images are character reference sheets of Wei (a Chinese man) and Smriti (an Indo-Mauritian woman). Create a NEW character reference sheet, same layout and same art style, of their granddaughter MIRA, aged 18, in 2027. Mixed Chinese and Indo-Mauritian heritage, believably related to both: Wei's eye shape and narrow chin, Smriti's warm skin tone (slightly lighter), thick dark eyebrows and the small gap between her front teeth when she smiles. Long straight black hair in a high ponytail. Confident, bright, modern. Clothing: a white T-shirt, an open light denim jacket, jeans, white sneakers, a small backpack. Expressions: thrilled gap-toothed grin, nervous excitement, emotional, determined. No religious symbols. {STYLE}"
+  },
+  {
+   "id": "kids_1990",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_32.png",
+    "assets/sheets/smriti_30.png"
+   ],
+   "out": "assets/sheets/kids_1990.png",
+   "prompt": "The two images are character reference sheets of Wei (a Chinese man) and Smriti (an Indo-Mauritian woman). Create a NEW character reference sheet, same art style, of their two children in 1990: a 6-year-old boy and a 3-year-old girl, mixed Chinese and Indo-Mauritian heritage, believably related to both parents. The boy has Wei's eye shape and short black hair, wears a striped T-shirt and shorts. The girl has Smriti's warm skin tone and large eyes, black hair in two little bunches, wears a small cotton dress. Layout on a plain light grey background: top row, both children full-body front and side views; bottom row, four head close-ups (boy laughing, boy cheeky, girl giggling, girl sleepy). {STYLE}"
+  }
+ ]
+}

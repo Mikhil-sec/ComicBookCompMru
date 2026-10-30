@@ -1,0 +1,87 @@
+{
+ "vars": {
+  "STYLE": "Art style: hand-painted anime feature film look. Semi-realistic and painterly, watercolour-and-gouache rendering with soft visible brush texture, delicate thin ink lines, realistic proportions, natural facial features with gentle anime stylisation, soft natural lighting, muted desaturated natural colour grading, subtle film grain. Characters and background rendered as ONE painting. Refined; not chibi, not cartoonish, not photographic, no oversaturation.",
+  "PANEL": "This is a single cinematic comic panel, not a character sheet: the character sheets are identity references only, so do not copy their grey background, layout or poses. Keep every character's face, hair, clothing and proportions exactly as on their sheet. Keep important content slightly away from the image edges, because the panel will be cropped a little. Leave a calm, uncluttered area near the top-left for a caption to be added later. No speech bubbles, no captions, no text except the shop sign, no watermark.",
+  "WEI": "Wei is a lean Chinese (Hakka) man with a single small mole below his RIGHT eye (viewer's left), shown on his character sheet.",
+  "SMRITI": "Smriti is an Indo-Mauritian woman with warm brown skin, large dark eyes and thick eyebrows, shown on her character sheet.",
+  "NORELIGION": "Purely cultural and social: no religious symbols, rites, altars, statues or temples.",
+  "MOTHER": "Wei's mother is a frail 85-year-old Hakka Chinese woman with white hair in a low bun, shown on her character sheet."
+ },
+ "jobs": [
+  {
+   "id": "shop_2008",
+   "kind": "edit",
+   "refs": [
+    "assets/plates/shop_1984.png"
+   ],
+   "out": "assets/plates/shop_2008.png",
+   "size": "1792x768",
+   "prompt": "Show this exact same shop from the exact same camera position, angle, lens and framing, 24 years later, in 2008. KEEP UNCHANGED: the ground-floor shop's footprint, width and position; the row of four red doors; the green LAM STORE 林記 signboard in the same place (now slightly faded); the position of the frangipani tree; the cane fields; the distant mountains and the tall boulder-topped peak; the art style and muted colour grading. CHANGES: (1) the corrugated tin roof is GONE: the family has built a full concrete FIRST FLOOR on top of the shop as their home, with a flat concrete roof and a small black water tank on it; (2) the upper floor's walls are painted pale blue-grey, with two windows protected by decorative white iron grilles and a small balcony with an iron railing above the shop's awning, potted plants and laundry on the balcony; (3) a narrow concrete staircase runs up the side wall to the upper floor; (4) the shop awning is now a sloping sheet of corrugated plastic on metal brackets; (5) the frangipani is now a big mature tree whose canopy reaches the balcony; (6) the road is smooth tarmac with a faded painted edge line; (7) two modern concrete houses now stand along the road in the distance, where some cane fields used to be; (8) a concrete electricity pole replaces the wooden one. Overcast soft daylight. No people. No text other than the sign. No watermark."
+  },
+  {
+   "id": "b3p1",
+   "kind": "edit",
+   "refs": [
+    "assets/plates/shop_2008.png"
+   ],
+   "out": "assets/panels/b3/p1.png",
+   "size": "1792x768",
+   "prompt": "KEEP the building, sign, tree, road, background and camera angle exactly as in this plate. Change the time and weather to a rainy evening: steady rain falling in fine streaks, a dark blue-grey sky, the wet tarmac road reflecting the lights. The shop below is half-closed: two of the four red doors are shut, a single bare bulb glows inside, no customers. One window upstairs glows warm yellow behind its iron grille. The street is empty. Quiet, lonely, melancholic mood. Leave calm dark sky at the top-left for a caption. {PANEL} {STYLE}"
+  },
+  {
+   "id": "b3p2",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_50.png",
+    "assets/sheets/smriti_48.png"
+   ],
+   "out": "assets/panels/b3/p2.png",
+   "size": "1536x1024",
+   "prompt": "The images are character sheets of Wei aged 50 ({WEI}) and Smriti aged 48 ({SMRITI}). Scene: late at night in 2008, in the small living room of their flat above the shop: a sofa with a crocheted throw, framed family photos on the wall, a window with an iron grille and rain on the glass, lit only by a small table lamp. Wei sits on the edge of the sofa in his cardigan, pressing a cordless home telephone to his ear with one hand; his face falling, stunned by bad news, his other hand gripping his knee. In the background, Smriti stands in the doorway in her long cotton tunic and shawl, one hand on the door frame, watching him with deep worry. Cool blue night tones with the warm lamp on Wei's face. Leave calm space in the top-left for a speech bubble. {PANEL} {STYLE}"
+  },
+  {
+   "id": "b3p3",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_50.png"
+   ],
+   "out": "assets/panels/b3/p3.png",
+   "size": "1536x1024",
+   "prompt": "The image is the character sheet of Wei aged 50 ({WEI}). Scene: Meizhou, Guangdong, China, in 2008, early morning. A traditional Hakka walled round-house village (weilongwu): a large horseshoe-shaped compound of whitewashed walls and grey tiled roofs with a semicircular pond in front of it, rice terraces and misty green hills behind, soft mist over the water. Wei stands alone on the stone path in the foreground, seen from BEHIND, a small travel bag in his right hand, his head tilted up toward the old house: the exact pose of a boy arriving somewhere new. He wears his dark cardigan. Cool, pale morning light, quiet and wistful. Only the exterior of the buildings is shown. Leave calm sky in the top-left for a caption. {NORELIGION} {PANEL} {STYLE}"
+  },
+  {
+   "id": "b3p4",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/mother_85.png",
+    "assets/sheets/wei_50.png"
+   ],
+   "out": "assets/panels/b3/p4.png",
+   "size": "1536x1024",
+   "prompt": "The images are character sheets of Wei's mother ({MOTHER}) and Wei aged 50 ({WEI}). Scene: a simple bedroom in an old Hakka house in Meizhou: whitewashed walls, a dark wooden bed with a mosquito net tied back, a wooden window with soft daylight falling across the quilt, a thermos and a cup on a small table. The mother lies propped up on pillows under a quilt, frail but clear-eyed, holding Wei's hand in both of hers and looking at him with a tender, knowing smile. Wei sits on a stool beside the bed, leaning close, his eyes wet, holding her hand. Gentle, intimate, quiet. Leave calm space at the top for speech bubbles. {NORELIGION} {PANEL} {STYLE}"
+  },
+  {
+   "id": "b3p5",
+   "kind": "edit",
+   "refs": [
+    "assets/sheets/wei_50.png",
+    "assets/panels/b2/p6.png"
+   ],
+   "out": "assets/panels/b3/p5.png",
+   "size": "1536x1024",
+   "prompt": "The first image is the character sheet of Wei aged 50 ({WEI}). The second image is an old family group photograph. Scene: inside an airplane, by the window seat, daytime. Through the oval window, a vast deep-blue Indian Ocean far below with scattered white clouds catching golden afternoon light. Wei sits by the window in his cardigan, seen in three-quarter view, looking down at a small printed photograph held in both hands: the photograph clearly shows a smaller version of the group photo in the second image (a crowd of smiling people in front of a shop). His expression is calm now, a quiet small smile forming, eyes glistening. Soft light from the window on his face. Leave calm space in the top-left for a caption. {PANEL} {STYLE}"
+  },
+  {
+   "id": "b3p6",
+   "kind": "edit",
+   "refs": [
+    "assets/plates/shop_2008.png",
+    "assets/sheets/smriti_48.png",
+    "assets/sheets/wei_50.png"
+   ],
+   "out": "assets/panels/b3/p6.png",
+   "size": "1792x768",
+   "prompt": "The first image is the shop in 2008. The other images are character sheets of Smriti aged 48 ({SMRITI}) and Wei aged 50 ({WEI}). Scene: night, just after rain, the wet road shining with reflections. KEEP the building, sign, tree and camera angle of the plate. The shop is fully open and brightly lit, warm light spilling onto the wet road; strings of small bulbs glow along the awning. A long hand-painted cloth banner hangs across the front of the balcony reading WELCOME HOME in large painted letters. Behind the counter and in the doorway stand Smriti, smiling with tears in her eyes, and about eight neighbours of every Mauritian community, young and old, waving and cheering. In the foreground, Wei stands on the road seen from behind, holding his small travel bag, frozen in surprise. Emotional, warm, joyful. Leave calm sky at the top-left for a caption. {PANEL} {STYLE}"
+  }
+ ]
+}

@@ -1,0 +1,611 @@
+{
+ "b1": {
+  "panels": [
+   {
+    "image": "assets/panels/b1/p1.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Mauritius, 1972.",
+      "at": [
+       0.015,
+       0.05
+      ]
+     },
+     {
+      "type": "caption",
+      "text": "I was fourteen. My whole life fit in one small suitcase.",
+      "at": [
+       0.015,
+       0.19
+      ],
+      "max_w": 0.28
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b1/p2.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "So you're Wei. You have your father's ears.",
+      "at": [
+       0.4,
+       0.12
+      ],
+      "tail": [
+       0.57,
+       0.24
+      ],
+      "max_w": 0.42
+     },
+     {
+      "type": "bubble",
+      "text": "We open at five.",
+      "at": [
+       0.86,
+       0.4
+      ],
+      "tail": [
+       0.69,
+       0.3
+      ],
+      "max_w": 0.2
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b1/p3.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "At night I wrote letters to my mother that I couldn't afford to send.",
+      "at": [
+       0.03,
+       0.05
+      ],
+      "max_w": 0.5
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b1/p4.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "You! New boy! You're on our team.",
+      "at": [
+       0.74,
+       0.1
+      ],
+      "tail": [
+       0.72,
+       0.31
+      ],
+      "max_w": 0.34
+     },
+     {
+      "type": "bubble",
+      "text": "I don't know the rules!",
+      "at": [
+       0.17,
+       0.9
+      ],
+      "tail": [
+       0.2,
+       0.68
+      ],
+      "max_w": 0.3
+     },
+     {
+      "type": "bubble",
+      "text": "Nobody does. Just run!",
+      "at": [
+       0.84,
+       0.9
+      ],
+      "tail": [
+       0.74,
+       0.62
+      ],
+      "max_w": 0.3
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b1/p5.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Spring Festival photo No. 1.",
+      "at": [
+       0.02,
+       0.04
+      ],
+      "max_w": 0.6
+     },
+     {
+      "type": "bubble",
+      "text": "Stand straight. We take one every year.",
+      "at": [
+       0.21,
+       0.88
+      ],
+      "tail": [
+       0.27,
+       0.6
+      ],
+      "max_w": 0.32
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b1/p6.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "1979.",
+      "at": [
+       0.01,
+       0.04
+      ]
+     },
+     {
+      "type": "bubble",
+      "text": "It's yours now. Take care of this street, and it will take care of you.",
+      "at": [
+       0.15,
+       0.45
+      ],
+      "tail": [
+       0.36,
+       0.44
+      ],
+      "max_w": 0.17
+     }
+    ]
+   }
+  ]
+ },
+ "b2": {
+  "panels": [
+   {
+    "image": "assets/panels/b2/p1.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "1984. The whole street came.",
+      "at": [
+       0.015,
+       0.05
+      ],
+      "max_w": 0.4
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b2/p2.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "Your daughter is marrying a shopkeeper.",
+      "at": [
+       0.21,
+       0.09
+      ],
+      "tail": [
+       0.3,
+       0.34
+      ],
+      "max_w": 0.34,
+      "size": 33
+     },
+     {
+      "type": "bubble",
+      "text": "My daughter is marrying a good man.",
+      "at": [
+       0.78,
+       0.11
+      ],
+      "tail": [
+       0.69,
+       0.33
+      ],
+      "max_w": 0.32,
+      "size": 33
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b2/p3.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Every Spring Festival we went to Chinatown. Smriti loved the lion dance more than I did.",
+      "at": [
+       0.56,
+       0.03
+      ],
+      "max_w": 0.4,
+      "size": 31
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b2/p4.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "Thinner! It's a dholl puri, not a dumpling!",
+      "at": [
+       0.5,
+       0.09
+      ],
+      "tail": [
+       0.67,
+       0.27
+      ],
+      "max_w": 0.36,
+      "size": 33
+     },
+     {
+      "type": "bubble",
+      "text": "Says the woman whose dumplings look like samosas.",
+      "at": [
+       0.17,
+       0.86
+      ],
+      "tail": [
+       0.27,
+       0.55
+      ],
+      "max_w": 0.3,
+      "size": 33
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b2/p5.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "1990. Uncle Lam always said a shop full of children never goes broke.",
+      "at": [
+       0.02,
+       0.03
+      ],
+      "max_w": 0.42,
+      "size": 31
+     },
+     {
+      "type": "bubble",
+      "text": "Slow down! You'll knock over the rice!",
+      "at": [
+       0.8,
+       0.12
+      ],
+      "tail": [
+       0.6,
+       0.32
+      ],
+      "max_w": 0.3,
+      "size": 33
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b2/p6.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Spring Festival photo No. 18. Nobody invited the neighbours. They just came, every year. Somewhere along the way, they had become family, and this street had become home.",
+      "at": [
+       0.99,
+       0.025
+      ],
+      "max_w": 0.35,
+      "size": 30
+     }
+    ]
+   }
+  ]
+ },
+ "b3": {
+  "panels": [
+   {
+    "image": "assets/panels/b3/p1.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "2008. The children had grown up and moved to town. Uncle Lam was gone. The street was quieter.",
+      "at": [
+       0.01,
+       0.04
+      ],
+      "max_w": 0.19,
+      "size": 30
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b3/p2.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "Your mother is very ill. You should come home.",
+      "at": [
+       0.5,
+       0.1
+      ],
+      "tail": [
+       0.51,
+       0.43
+      ],
+      "max_w": 0.34,
+      "size": 32
+     },
+     {
+      "type": "bubble",
+      "text": "...Home.",
+      "at": [
+       0.86,
+       0.36
+      ],
+      "tail": [
+       0.68,
+       0.4
+      ],
+      "max_w": 0.2,
+      "size": 32
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b3/p3.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Meizhou, China. Thirty-six years later, I was the stranger here.",
+      "at": [
+       0.02,
+       0.03
+      ],
+      "max_w": 0.46,
+      "size": 30
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b3/p4.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "You speak like an islander now.",
+      "at": [
+       0.2,
+       0.1
+      ],
+      "tail": [
+       0.27,
+       0.4
+      ],
+      "max_w": 0.3,
+      "size": 31
+     },
+     {
+      "type": "bubble",
+      "text": "I don't know where I belong anymore, Ma.",
+      "at": [
+       0.8,
+       0.1
+      ],
+      "tail": [
+       0.64,
+       0.24
+      ],
+      "max_w": 0.3,
+      "size": 31
+     },
+     {
+      "type": "bubble",
+      "text": "Home is where your children laugh. Go back to them.",
+      "at": [
+       0.2,
+       0.87
+      ],
+      "tail": [
+       0.27,
+       0.62
+      ],
+      "max_w": 0.32,
+      "size": 31
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b3/p5.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Somewhere over the ocean, I finally understood what she meant.",
+      "at": [
+       0.02,
+       0.03
+      ],
+      "max_w": 0.32,
+      "size": 30
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b3/p6.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Take care of this street, and it will take care of you.",
+      "at": [
+       0.01,
+       0.04
+      ],
+      "max_w": 0.2,
+      "size": 30
+     },
+     {
+      "type": "bubble",
+      "text": "We kept the lights on.",
+      "at": [
+       0.62,
+       0.92
+      ],
+      "tail": [
+       0.488,
+       0.76
+      ],
+      "max_w": 0.26,
+      "size": 34
+     }
+    ]
+   }
+  ]
+ },
+ "b4": {
+  "panels": [
+   {
+    "image": "assets/panels/b4/p1.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Spring Festival, 2027. Fifty-five years after a boy with one suitcase first stood on this road.",
+      "at": [
+       0.008,
+       0.03
+      ],
+      "max_w": 0.155,
+      "size": 28
+     },
+     {
+      "type": "caption",
+      "text": "Wei had the plaster stripped away, so the old basalt walls Uncle Lam built could be seen again.",
+      "at": [
+       0.008,
+       0.29
+      ],
+      "max_w": 0.155,
+      "size": 28
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b4/p2.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Dumplings beside dholl puri. Nobody at this table could remember it any other way.",
+      "at": [
+       0.01,
+       0.03
+      ],
+      "max_w": 0.4,
+      "size": 30
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b4/p3.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "Grandpa... I got in. I'm going to study in China!",
+      "at": [
+       0.6,
+       0.11
+      ],
+      "tail": [
+       0.43,
+       0.24
+      ],
+      "max_w": 0.32,
+      "size": 32
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b4/p4.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "Happy Spring Festival, Mauritius!",
+      "at": [
+       0.3,
+       0.09
+      ],
+      "tail": [
+       0.36,
+       0.33
+      ],
+      "max_w": 0.36,
+      "size": 32
+     },
+     {
+      "type": "bubble",
+      "text": "Happy Spring Festival, Meizhou!",
+      "at": [
+       0.55,
+       0.9
+      ],
+      "tail": [
+       0.83,
+       0.66
+      ],
+      "max_w": 0.32,
+      "size": 32
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b4/p5.png",
+    "text": [
+     {
+      "type": "caption",
+      "text": "Spring Festival photo No. 55. We needed a wider lens.",
+      "at": [
+       0.01,
+       0.03
+      ],
+      "max_w": 0.36,
+      "size": 30
+     }
+    ]
+   },
+   {
+    "image": "assets/panels/b4/p6.png",
+    "text": [
+     {
+      "type": "bubble",
+      "text": "It brought me here. Let it bring you back.",
+      "at": [
+       0.36,
+       0.13
+      ],
+      "tail": [
+       0.25,
+       0.3
+      ],
+      "max_w": 0.18,
+      "size": 32
+     },
+     {
+      "type": "caption",
+      "text": "55 years. Two homes. One family.",
+      "at": [
+       0.99,
+       0.95
+      ],
+      "max_w": 0.3,
+      "size": 34
+     }
+    ]
+   }
+  ]
+ }
+}
